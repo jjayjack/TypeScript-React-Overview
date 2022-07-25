@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 import ToDoList from "./components/TodoList";
 import NewToDo from "./components/NewToDo";
 
 const App: React.FC = () => {
-  const todos = [{ id: "t1", text: "Finish course" }];
+  const todos = useState([]);
   const todoAddHandler = (text: string) => {
     // console.log(text);
   };
